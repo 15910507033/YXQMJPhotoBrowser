@@ -16,4 +16,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'YXQMJPhotoBrowser/*'
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 
+  s.dependency 'MBProgressHUD', '0.9.2'
+  s.dependency 'SDWebImage'
 end
