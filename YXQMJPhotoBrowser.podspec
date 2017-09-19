@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YXQMJPhotoBrowser"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "Methods used on iOS."
   s.description  = <<-DESC
                    It is methods used on iOS.
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 
   s.dependency 'MBProgressHUD', '0.9.2'
-  s.dependency 'SDWebImage’, '3.8.2'
+  s.dependency 'SDWebImage', '3.8.2'
 end
